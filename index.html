@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <!-- Menghubungkan file css -->
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/Logocoffe.png" alt="gambar" class="gambar" />
+      <!-- Menampilkan gambar -->
+      <h2>Anjani Coffe</h2>
+      <!-- Membuat heading -->
+      <p>Silakan login untuk melanjutkan</p>
+      <!-- Membuat paragraf -->
+      <form action="#">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <!-- Membuat label input username -->
+          <input type="text" id="username" name="username" required />
+          <!-- membuat input username -->
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <!-- Membuat label input password -->
+          <input type="password" id="password" name="password" required />
+          <!-- Membuat input password -->
+        </div>
+        <input class="btn" type="button" onclick="Submit()" value="Login" />
+      </form>
+    </div>
+
+    <!-- menghubungkan file index.html ke file script.js yang terletak pada folder js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
